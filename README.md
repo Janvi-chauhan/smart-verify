@@ -1,16 +1,47 @@
-# React + Vite
+# SmartVerify – Employee & Income Verification APIs
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive landing page for SmartVerify's Employee & Income Verification APIs, built with React and Vite.
 
-Currently, two official plugins are available:
+## 🚀 Tech Stack
+- React.js
+- Vite
+- Tailwind CSS
+- Lucide React Icons
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📁 Project Structure
+\`\`\`
+src/
+├── components/
+│   ├── AnnouncementBar.jsx
+│   └── Navbar.jsx
+├── sections/
+│   ├── Hero.jsx
+│   ├── ManualChecks.jsx
+│   ├── VerificationProcess.jsx
+│   ├── ApiVerification.jsx
+│   ├── ApiUsers.jsx
+│   ├── Benefits.jsx
+│   └── FinalSection.jsx
+└── App.jsx
+\`\`\`
 
-## React Compiler
+## 🛠️ Installation
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+\`\`\`bash
+git clone https://github.com/Janvi-chauhan/smart-verify.git
+cd smart-verify
+npm install
+npm run dev
+\`\`\`
 
-## Expanding the ESLint configuration
+Open [http://localhost:5173](http://localhost:5173) in your browser.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+- Fully responsive (Desktop, Tablet, Mobile)
+- Pixel-perfect Figma implementation
+- Interactive FAQ accordion
+- Mobile hamburger menu
+- Component-based architecture
+
+## 📄 License
+This project is for educational purposes.
